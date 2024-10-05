@@ -123,6 +123,9 @@ COLD_START:
         lda     #WIDTH2
         sta     Z18
   .endif
+  .ifdef EATER
+        jsr     LCDINIT
+  .endif
 .endif
 
 ; All non-CONFIG_SMALL versions of BASIC have

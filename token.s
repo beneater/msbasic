@@ -78,6 +78,10 @@
 		keyword_rts "PRT", PRT
 .endif
 		keyword_rts "NEW", NEW
+.ifdef EATER
+		keyword_rts "LCDCMD", LCDCMD
+		keyword_rts "LCDPRINT", LCDPRINT
+.endif
 
 		count_tokens
 
