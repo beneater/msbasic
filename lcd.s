@@ -105,6 +105,7 @@ lcd_instruction:
 LCDPRINTBYTE:
   jsr GETBYT
   txa
+  jsr lcd_print_char
   rts
 
 LCDPRINT:
