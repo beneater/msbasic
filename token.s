@@ -79,6 +79,7 @@
 .endif
 		keyword_rts "NEW", NEW
 .ifdef EATER
+                keyword_rts "WOZMON", RESET
 		keyword_rts "LCDCMD", LCDCMD
 		keyword_rts "LCDPRINT", LCDPRINT
                 keyword_rts "LCDPRINTBYTE", LCDPRINTBYTE
