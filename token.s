@@ -81,6 +81,7 @@
 .ifdef EATER
 		keyword_rts "LCDCMD", LCDCMD
 		keyword_rts "LCDPRINT", LCDPRINT
+                keyword_rts "LCDPRINTBYTE", LCDPRINTBYTE
 .endif
 
 		count_tokens
