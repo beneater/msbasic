@@ -108,6 +108,6 @@ More information on the differences of the respective versions can be found on t
 
 Just run the following command: 
 
-'''bash
+```bash
 make
-'''
+```
