@@ -103,3 +103,11 @@ More information on the differences of the respective versions can be found on t
 * [Applesoft lite](http://cowgod.org/replica1/applesoft/) by Tom Greene helped a lot, too.
 * Thanks to Joe Zbicak for help with Intellision Keyboard BASIC
 * This work is dedicated to the memory of my dear hacking pal Michael "acidity" Kollmann.
+
+## How to build?
+
+Just run the following command: 
+
+```bash
+make
+```

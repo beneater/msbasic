@@ -102,9 +102,20 @@ lcd_instruction:
   sta PORTB
   rts
 
-LCDPRINT:
+LCDPRINTBYTE:
   jsr GETBYT
   txa
+  jsr lcd_print_char
+  rts
+
+LCDPRINT:
+  jsr GETSTR
+  ldy #$00
+  lda (INDEX),y
+  jsr lcd_print_char
+  rts
+
+lcd_print_char:
   jsr lcd_wait
   pha
   lsr
