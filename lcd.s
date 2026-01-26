@@ -78,6 +78,15 @@ LCDINIT:
   rts
 
 
+LCDCLS:
+	pha
+	lda #%00000001 ; clear display 
+	jsr lcd_instruction
+	lda #%00000010 ; return home
+	jsr lcd_instruction
+	pla
+	rts
+
 LCDCMD:
   jsr GETBYT
   txa
