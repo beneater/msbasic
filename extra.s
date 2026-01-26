@@ -30,4 +30,5 @@
 
 .ifdef EATER
 .include "bios.s"
+.include "keesl.s"
 .endif
